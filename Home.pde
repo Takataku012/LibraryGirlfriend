@@ -18,6 +18,9 @@ class Home {
     case 3:
       // mode3
       break;
+    case 4:
+      // mode4
+      break;
     default:
       // main
       break;
@@ -27,14 +30,14 @@ class Home {
 
   void button() {
 
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 5; i++) {
       fill(255);
       stroke(0);
-      rect((width/4.0)*i, 590, (width/4.0), 50);
+      rect((width/5.0)*i, 590, (width/5.0), 50);
       fill(0);
-      text(i, (width/4.0)*i+(width/8.0), 615);
+      text(i, (width/5.0)*i+(width/8.0), 615);
 
-      if (mouseX > (width/4.0)*i && mouseX < (width/4.0)*i+(width/4.0) && mouseY > 590 && mouseY < height) {
+      if (mouseX > (width/5.0)*i && mouseX < (width/5.0)*i+(width/5.0) && mouseY > 590 && mouseY < height) {
         if (mousePressed == true) {
           mode = i;
         }
