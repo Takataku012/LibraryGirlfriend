@@ -61,10 +61,10 @@ class Home {
       // main
       break;
     }
-    buttom();
+    button();
   }
 
-  public void buttom() {
+  public void button() {
 
     for (int i = 0; i < 4; i++) {
       fill(255);
