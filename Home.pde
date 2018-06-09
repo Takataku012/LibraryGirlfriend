@@ -22,10 +22,10 @@ class Home {
       // main
       break;
     }
-    buttom();
+    button();
   }
 
-  void buttom() {
+  void button() {
 
     for (int i = 0; i < 4; i++) {
       fill(255);
