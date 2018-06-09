@@ -33,11 +33,11 @@ class Home {
     for (int i = 0; i < 5; i++) {
       fill(255);
       stroke(0);
-      rect((width/5.0)*i, 590, (width/5.0), 50);
+      rect((width/5.0)*i, 570, (width/5.0), 80);
       fill(0);
       text(i, (width/5.0)*i+(width/8.0), 615);
 
-      if (mouseX > (width/5.0)*i && mouseX < (width/5.0)*i+(width/5.0) && mouseY > 590 && mouseY < height) {
+      if (mouseX > (width/5.0)*i && mouseX < (width/5.0)*i+(width/5.0) && mouseY > 570 && mouseY < height) {
         if (mousePressed == true) {
           mode = i;
         }
